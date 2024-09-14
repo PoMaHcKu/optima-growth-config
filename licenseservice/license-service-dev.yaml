@@ -5,4 +5,4 @@ spring:
     password: postgres
 
 example:
-  property: I AM DEFAULT
+  property: I AM DEV
