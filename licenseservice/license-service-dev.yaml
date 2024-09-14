@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://optimadb:5432/ostock_dev_license
+    username: postgres
+    password: postgres
+
+example:
+  property: I AM DEFAULT
