@@ -1,14 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/ostock_dev_license
-    username: postgres
-    password: postgres
 
 eureka:
-  instance:
-    prefer-ip-address: true
   client:
-    registerWithEureka: true
-    fetchRegistry: true
     serviceUrl:
       defaultZone: http://localhost:8070/eureka/
